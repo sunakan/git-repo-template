@@ -30,3 +30,7 @@ nginx:
 		--publish 80:80 \
 		--mount type=bind,source=$(PWD)/html/,target=/usr/share/nginx/html/,readonly \
 		nginx:stable
+
+.PHONY: deploy-docs
+deploy-docs: ## ドキュメントをデプロイする
+	git subtree push --prefix docs/html/ origin master
