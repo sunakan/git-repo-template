@@ -457,6 +457,34 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>デフォルトブランチをdevelopにする</p>
+</li>
+<li>
+<p>masterブランチはドキュメントブランチとする</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="title">masterブランチをGitHub Pagesに使いたい場合</div>
+<div class="content">
+<pre># developブランチで
+$ git subtree push --prefix docs/html/ origin master</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">masterブランチをGitHub Pagesに使いたい場合</div>
+<div class="content">
+<pre># developブランチで
+$ git subtree push --prefix docs/html/ origin gh-pages</pre>
+</div>
+</div>
+</div>
+</div>
 <div class="sect1">
 <h2 id="_ノート_01"><a class="link" href="#_ノート_01">1. ノート 01</a></h2>
 <div class="sectionbody">
@@ -487,7 +515,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-08-07 11:10:20 UTC
+Last updated 2020-08-07 12:31:31 UTC
 </div>
 </div>
 </body>

@@ -13,6 +13,6 @@ include makefiles/help.mk
 ################################################################################
 # タスク
 ################################################################################
-.PHONY: hello
-hello: ## hello
-	echo hello
+.PHONY: deploy-docs
+deploy-docs: ## ドキュメントをデプロイする
+	git subtree push --prefix docs/html/ origin gh-pages
