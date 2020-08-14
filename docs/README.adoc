@@ -18,19 +18,14 @@
 = テスト
 
 * デフォルトブランチをdevelopにする
-* masterブランチはドキュメントブランチとする
+* gh-pagesブランチはドキュメントブランチとする
 
-.masterブランチをGitHub Pagesに使いたい場合
-----
-# developブランチで
-$ git subtree push --prefix docs/html/ origin master
-----
-
-.masterブランチをGitHub Pagesに使いたい場合
+.gh-pagesブランチをGitHub Pagesに使いたい場合
 ----
 # developブランチで
 $ git subtree push --prefix docs/html/ origin gh-pages
 ----
+
 
 include::./note-01.adoc[]
 
