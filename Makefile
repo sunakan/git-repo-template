@@ -1,5 +1,6 @@
 include makefiles/gitignore.mk
 include makefiles/ytt.mk
+include makefiles/rq.mk
 include makefiles/help.mk
 
 ################################################################################
